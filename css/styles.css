@@ -1,0 +1,126 @@
+.logo2{
+position: absolute;
+    width: 100%;
+    text-align: right;
+    padding-right: 69px;
+
+}
+
+
+.quienessomos{
+
+    background: url(../images/landing.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto !important;
+    padding-top: 280px;
+    padding-bottom: 143px;
+    color: #fff;
+
+  
+}
+
+.experiencia,.beneficios,.clientes,.contacto{
+ 
+
+  padding: 111px;
+  
+}
+
+@media screen and (max-width: 576px) and (min-width: 0px) {
+
+
+    .experiencia,.beneficios,.clientes,.contacto{
+     
+      padding: 30px;
+      
+    }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+
+
+    .experiencia,.beneficios,.clientes,.contacto{
+     
+      padding: 30px;
+      
+    }
+
+}
+
+
+.esystem{
+
+    background: url(../images/esystem.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto !important;
+    padding-top: 143px;
+    padding-bottom: 143px;
+    color: #fff;
+}
+
+
+
+
+#overview{
+
+}
+
+.page-section2{
+
+	padding: 3em;
+}
+
+.titulo{
+
+	padding-top: 42PX;
+}
+
+.clientelogo{
+
+	padding:1em;
+	height: 12px;
+
+
+}
+
+.company{
+
+	padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.descripcion{
+
+	background: red;
+
+
+
+}
+
+.slick-prev:before {
+    content: "\f060" !important;
+    font-family: FontAwesome !important;
+    font-size:40px !important;
+}
+
+.slick-next:before {
+    content: "\f061" !important;
+    font-family: FontAwesome !important;
+    font-size:40px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+
+    color: #000 !important;
+
+}
