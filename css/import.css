@@ -327,7 +327,7 @@ body {
   font-family: AbhayaLibre-SemiBold, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.8;
   color: #292b2c;
   background-color: #fff; }
 
@@ -342,7 +342,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
   font-family: Lato-Reg;
-  line-height: 2.2; }
+  line-height: 1.9; }
 
 abbr[title],
 abbr[data-original-title] {
@@ -2593,7 +2593,7 @@ tbody.collapse.show {
   position: relative;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  min-height: 1.5rem;
+  min-height: 1.8rem;
   padding-left: 1.5rem;
   margin-right: 1rem;
   cursor: pointer; }
@@ -2619,7 +2619,7 @@ tbody.collapse.show {
 
 .custom-control-indicator {
   position: absolute;
-  top: 0.25rem;
+  top: 0.4rem;
   left: 0;
   display: block;
   width: 1rem;
@@ -3881,7 +3881,7 @@ button.close {
 
 .modal-title {
   margin-bottom: 0;
-  line-height: 1.5; }
+  line-height: 1.8; }
 
 .modal-body {
   position: relative;
@@ -3930,7 +3930,7 @@ button.close {
   font-weight: normal;
   letter-spacing: normal;
   line-break: auto;
-  line-height: 1.5;
+  line-height: 1.8;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -4012,7 +4012,7 @@ button.close {
   font-weight: normal;
   letter-spacing: normal;
   line-break: auto;
-  line-height: 1.5;
+  line-height: 1.8;
   text-align: left;
   text-align: start;
   text-decoration: none;
