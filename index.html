@@ -23,7 +23,7 @@
 
 <section class="group img-fluid" id="nosotros">
     <div class="container">
-        <div class="row">
+        <div class="row guti">
      
              <div class="col-lg-6 offset-lg-3 col-md-6 offset-md-3" style="text-align:center;">
 
@@ -47,7 +47,7 @@
     </div>
 </section>
 
-<div class="container-fluid" style='padding-top: 29px;' >
+<div class="container-fluid pagesgroup"  >
     
     
 
@@ -56,9 +56,9 @@
 
     <div class="row">
         
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-6" style='padding-bottom: 29px;'>
 
-            <div class="row no-gutters">
+            <div class="row no-gutters" id='guti'>
                 
                 <div class="col-md-12 esystem animated fadeIn" >
 
@@ -71,11 +71,7 @@
                 <div class="col-md-12 descesystem" >
 
 
-                    <div style='    padding: 73px;
-                        padding-top: 78px;
-                        color: #fff;
-                        font-size: 18px;
-                        text-align: center;'>
+                    <div class='articulodes'>
 
                     <p>Dedicada a brindar servicios de Outsourcing; concédanos a gestionar sus centro de Datos, Redes, Telefonía, Seguridad y Mesa de ayuda; permitanos ayudarle a que la tecnología contribuya en el crecimiento de su negocio, contamos con personal especializado que se encuentra capacitándose constantemente en las ultimas novedades en tecnologías.</p>
 
@@ -89,9 +85,9 @@
         </div>
 
 
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-6" style='padding-bottom: 29px;'>
 
-        <div class="row no-gutters">
+        <div class="row no-gutters" id='guti'>
                 
                 <div class="col-md-12 bsystem animated fadeIn">
 
@@ -103,11 +99,8 @@
 
                 <div class="col-md-12 desbsystem">
 
-                 <div style='    padding: 73px;
-                        padding-top: 78px;
-                        color: #fff;
-                        font-size: 18px;
-                        text-align: center;'>
+                    <div class='articulodes'>
+
 
                     <p>Ofrece soluciones de Infraestructura en Tecnoloǵias de Informacion para Centro de Datos, Networking, Seguridad Perimetral, Camaras de Seguridad; Workstations, Impresaoras, Wireless; en opciones de compra, alquiler, funcionamiento, Administracion, segun las necesidades de su negocio; somos partnet de HP, DELL; IBM, CISCO, FORTINET</p>
 
@@ -174,8 +167,108 @@ $('html,body').animate({scrollTop: $(strAncla).offset().top-100}, 2000);
 </html>
 
 <style type="text/css">
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 0px) {
+
+    .articulodes{
+
+padding: 0px;
+padding-top: 25px;
+padding-left: 34px;
+color: #fff;
+padding-right: 37px;
+padding-bottom: 13px;
+font-size: 18px;
+text-align: center;
+
+}
+
+.pagesgroup{
+
+    padding-top: 29px;
+
+}
+
+.guti {
+margin-right: 1 !important;
+margin-left: 1 !important;
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+    .articulodes{
+
+padding: 0px;
+padding-top: 25px;
+padding-left: 34px;
+color: #fff;
+padding-right: 37px;
+padding-bottom: 13px;
+font-size: 18px;
+text-align: center;
+
+}
+
+.pagesgroup{
+
+    padding-top: 29px;
+
+}
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+.pagesgroup{
+
+    padding-top: 29px;
+
+}
+
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    .articulodes{
+
+        padding: 69px;
+        padding-top: 78px;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+
+
+}
+
+
+
+
+
+
+
+}
     
-   
+
+
 .esystem{
 
     background: url(images/esystem.jpg) no-repeat center center;
@@ -235,4 +328,20 @@ $('html,body').animate({scrollTop: $(strAncla).offset().top-100}, 2000);
 }
 
 </style>
+
+<script type="text/javascript">
+    
+$(window).resize(function(){     
+
+       if ($('container-fluid').width() < 980 ){
+
+              $("div").removeClass( "no-gutters" )
+
+       }
+
+});
+
+
+
+</script>
 
